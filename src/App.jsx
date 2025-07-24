@@ -4,7 +4,21 @@ function App() {
   return (
     <>
      <header>
-      <div className="container"></div>
+      <div className="container">
+        <h2>Foodi</h2>
+        <ul>
+          <li>Home</li>
+          <li>Menu</li>
+          <li>Services</li>
+          <li>Offers</li>
+
+        </ul>
+
+        <ul>
+          <li>🔍</li>
+          <li>📞Contact</li>
+        </ul>
+      </div>
      </header> 
     <main>
       <div className="container"></div>      
