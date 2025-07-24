@@ -21,7 +21,17 @@ function App() {
       </div>
      </header> 
     <main>
-      <div className="container"></div>      
+      <div className="container">
+        <div className="left">
+          <h1>Dive into Delights Of Delectable <span>Food</span></h1>
+          <p>Where Each Plate Weaves a Story of Culinary Mastery and Passionate Craftsmanship</p>
+          <div className="btns">
+            <button id='Order'>Order Now</button>
+            <button id='video'>Watch video</button>
+          </div>
+        </div>
+        <div className='right'><img src="./hero.png" alt=""/></div>
+      </div>      
     </main>
     <section>
       <div className="container"></div>
