@@ -34,7 +34,39 @@ function App() {
       </div>      
     </main>
     <section>
-      <div className="container"></div>
+      <h1>Popular categories</h1>
+      <div className="container">
+        <div id="cards">
+          <div className='card-categroies'>
+           <div className='img-frame'>
+            <img src="https://img.pikbest.com/origin/09/17/77/71vpIkbEsTIN8.png!sw800" alt=""/>
+           </div>
+            <h3>Main Dish</h3>
+            <span>(86 dishes)</span>
+          </div>
+          <div className='card-categroies'>
+           <div className='img-frame'>
+            <img src="https://img.pikbest.com/origin/09/17/77/71vpIkbEsTIN8.png!sw800" alt=""/>
+           </div>
+            <h3>Main Dish</h3>
+            <span>(86 dishes)</span>
+          </div>
+          <div className='card-categroies'>
+           <div className='img-frame'>
+            <img src="https://img.pikbest.com/origin/09/17/77/71vpIkbEsTIN8.png!sw800" alt=""/>
+           </div>
+            <h3>Main Dish</h3>
+            <span>(86 dishes)</span>
+          </div>
+          <div className='card-categroies'>
+           <div className='img-frame'>
+            <img src="https://img.pikbest.com/origin/09/17/77/71vpIkbEsTIN8.png!sw800" alt=""/>
+           </div>
+            <h3>Main Dish</h3>
+            <span>(86 dishes)</span>
+          </div>
+        </div>
+      </div>
     </section>
     <section>
       <div className="container"></div>      
