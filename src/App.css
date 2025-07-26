@@ -139,3 +139,61 @@ header .container {
     text-align: center;
     font-size: 60px;
   }
+
+  .section-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+    font-size: 45px;
+    }
+
+    span {
+      display: flex ;
+      gap: 20px;
+      
+       button {
+        border: none;
+        padding: 10px 15px ;
+        color: #6F6E6E;
+        background: #EFEFEF;
+        font-size: 18px;
+        font-weight: 550;
+        transition: all 0.3s;
+       }
+       button:hover{
+        background: #39DB4A;
+        color: white;
+       }
+    }
+  }
+
+
+  .menu-card{
+    
+    width: 400px;
+    border-radius: 35px;
+    box-shadow: 2px 9px 42px 0px #00000014;
+    text-align: center;
+    padding: 37px 0 39px 0;
+  }
+
+
+
+  .menu-cards {
+    margin-top: 63px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .menu-card {
+    position: relative;
+  }
+  #like {
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    font-size: 32px;
+  }
