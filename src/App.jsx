@@ -95,7 +95,7 @@ function App() {
               <button>next</button>
             </span>
           </div>
-          <div class="menu-cards">
+          <div className="menu-cards">
             <div className="menu-card">
             <span id="like">❤️</span>
 
@@ -123,8 +123,23 @@ function App() {
           </div>
         </div>
       </section>
-      <section>
-        <div className="container"></div>
+      <section id="section-4">
+        <div className="container">
+          <img src="./hero2.png" width={400} alt=""/>
+
+        <div id="img-frame-2">
+
+        </div>
+
+          <div className="section-info">
+            <h2>
+              What Our Customers Say About Us
+            </h2>
+            <p>
+              “I had the pleasure of dining at Foodi last night, and I'm still raving about the experience! The attention to detail in presentation and service was impeccable”
+            </p>
+          </div>
+        </div>
       </section>
       <section>
         <div className="container"></div>
@@ -133,8 +148,30 @@ function App() {
         <div className="contianer"></div>
       </article>
       <footer>
-        <div className="container"></div>
-      </footer>
+  <div className="container footer-content">
+    <div className="footer-left">
+      <h2>Foodi</h2>
+      <p>Your daily dose of delicious food delivered fresh to your doorstep.</p>
+    </div>
+    <div className="footer-links">
+      <ul>
+        <li>Home</li>
+        <li>Menu</li>
+        <li>Services</li>
+        <li>Offers</li>
+      </ul>
+      <ul>
+        <li>Contact</li>
+        <li>Privacy Policy</li>
+        <li>Terms & Conditions</li>
+      </ul>
+    </div>
+  </div>
+  <div className="footer-bottom">
+    <span>© 2023 Dscode | All rights reserved</span>
+  </div>
+</footer>
+
     </>
   );
 }
