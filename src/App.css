@@ -161,6 +161,7 @@ header .container {
         font-size: 18px;
         font-weight: 550;
         transition: all 0.3s;
+        border-radius:  8px;
        }
        button:hover{
         background: #39DB4A;
